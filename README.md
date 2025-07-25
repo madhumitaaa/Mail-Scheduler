@@ -27,5 +27,4 @@ A backend-only project that allows users to **schedule emails for future deliver
 
 ---
 
-## 📁 Folder Structure
 
