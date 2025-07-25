@@ -1,0 +1,53 @@
+/* Navbar.css */
+
+.navbar {
+  
+  background-color: black;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #00bcd4; /* Light cyan on hover */
+}
+
+.navbar-links li button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: rgb(15, 15, 15);
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  background-color:#00bcd4 ;
+  transition: all 0.3s ease;
+}
+
+.navbar-links li button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Remove blue outline when button is clicked */
+.navbar-links li button:focus {
+  outline: none;
+  box-shadow: none;
+}

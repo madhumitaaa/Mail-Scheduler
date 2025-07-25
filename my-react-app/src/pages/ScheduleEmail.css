@@ -1,0 +1,90 @@
+.schedule-mail-container {
+  max-width:800px;
+  margin: 3rem auto;
+  padding: 2.5rem 2rem;
+  background-color: #ffffff;
+   
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.schedule-mail-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333333;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.schedule-mail-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.schedule-mail-container input,
+.schedule-mail-container textarea {
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+/*
+.schedule-mail-container input:focus,
+.schedule-mail-container textarea:focus {
+  border-color: #007bff;
+}
+*/
+.schedule-mail-container textarea {
+  resize: vertical;
+  min-height: 160px;
+  max-height: 350px;
+}
+
+.schedule-mail-container button {
+ background-color: #007bff;
+  color: white;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.schedule-mail-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+.success-message,
+.error-message {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.75rem;
+}
+
+.success-message {
+  color: #28a745;
+  font-weight: 500;
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: 500;
+}
+
+
+.message {
+  width: 100%;
+  min-height: 160px;
+  max-height: 350px;
+  resize: vertical;
+  color:black;
+}
